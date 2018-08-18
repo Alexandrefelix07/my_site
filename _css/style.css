@@ -1,0 +1,292 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'fontelogo';
+  
+	 src: url("../_fonte/bubblegum-sans-regular.ttf");
+}
+hgroup#ba2 h1{
+
+           
+               font-size: 20px;
+               text-shadow:2px 3px 2px  aqua;   /*==== DA UMA SOMBRA NO TEXTO * PRA CIMA -PRA ESQUERDA PRA BAIXO ESSA E A ORDEN ==== */
+               font-family:sans-serif; /*==== aqui entra a fonte personalizada ==== */
+                text-align: center; /*==== alinha o texto ao centro  ==== */
+    
+}
+
+hgroup#baner{
+	 padding: 60px;
+	 background-repeat: no-repeat;
+       background-position: 850px 95px;
+	  cursor:Default;
+	 border-radius: 20px;/*==== efeito circular no menu ==== */
+	    background-image: url("../_img/Trust.png" ) ;
+	    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.81);/*==== sombra deslocamneto hor ver  espalhamneto cor  ==== */
+}
+
+
+                         /*==== formatação do site home principal ==== */
+body{
+    background-image: url("../_img/asas.jpg") ;
+
+    background-repeat: no-repeat;
+	  cursor:Default;
+
+}
+                           /*==== formatação a interface do site ==== */
+div#interface{
+	
+ background-color: #ffffe9;
+        position: absolute;
+        border-radius: 20px;/*==== efeito circular no menu ==== */
+        width: 1000px;/*==== tamanho do conteudo apresentado==== */
+        left: 310px;
+      
+        margin: auto  ; /*==== margen do site cima esquerda baixo direita essae e a orden ==== */
+        margin-bottom: 5px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.81);/*==== sombra deslocamneto hor ver  espalhamneto cor  ==== */
+        padding: 5px;/*==== espasamento interno do menu ==== */
+             }
+			 
+div#moldura{
+	border-radius: 20px;
+	 margin-top: 40px ;
+     margin-bottom: 40px;
+	width:1000px;
+	height:420px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.81);
+	overflow:hidden;
+	 margin-left:auto;
+	margin-right:auto;
+	
+}
+
+div#moldura img.capa{/*====aqui usamos class com a nome capa resolveu todo o problema da imagen   ==== */
+     
+ margin-left:-1px;
+	margin-right:auto;
+   border-radius: 22px;
+		padding:-1px;
+	width:1006px;
+	height:422px;
+ 
+
+	
+}
+
+div#moldura ul{
+	animation: cambio 24s infinite  linear; /*==== alternate efeito tempo da tranciçao e alterna entre as foros  ==== */
+	animation-timing-function: ease-in; /*==== step-start muda duma vez  ease-in devagar ease devagar ==== */
+	display:flex;
+	padding:0px;
+    
+	
+}
+div#moldura li{
+	
+	margin-top: -17px ;
+	list-style:none;
+		width:1000px;
+		
+}
+@keyframes cambio{
+	
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+	
+	30%{margin-left: -100%;}
+	50%{margin-left: -100%;}
+	
+	60%{margin-left: -200%;}
+	90%{margin-left: -200%;}
+}
+table#tabela{
+	cursor:Default;
+	width:1000px;
+	font-weight: bold;
+	font-size:13px;
+	margin-top: 20px ;
+	  margin-bottom: 20px;
+	border-spacing:2px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+
+table#tabela caption{
+	
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.81);
+	font-weight: bold;
+	font-size:18px;
+		margin-top: 20px ;
+	  margin-bottom: 20px;
+	 padding:8px;
+	 border-radius: 20px;
+	 background-color:  #e1e1e1;
+	 color:rgba(162, 12, 162, 0.88);
+	
+}
+table#tabela td{
+	 border-radius: 20px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.81);
+	 text-transform: uppercase; 
+	text-align:center;
+	color:#606060;
+	border: 1px solid #606060;
+	padding:10px;
+	
+	 
+}
+
+
+
+table#tabela tr:hover{ 
+	background-color: #cecece;
+	
+}
+table#tabela td:hover{
+
+background-color:  #e1e1e1; /*==== muda a cor ao passar o mause ==== */
+                 }
+				 
+table#tabela a{
+	
+	text-decoration:none ;
+ 
+}
+table#tabela a:hover{
+	font-weight: bold;
+	color:#56a058;
+	
+}
+
+
+
+header#cabecalho{
+
+		 border-radius: 20px;/*==== efeito circular no menu ==== */
+    margin: 0px -5px 0px -5px  ; /*==== margen do site cima esquerda baixo direita essae e a orden ==== */
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.81);/*==== sombra deslocamneto hor ver  espalhamneto cor  ==== */
+    margin-top: -32px  ;/*==== deminue a margem de cima  ==== */
+    background-repeat: no-repeat;;/*==== nao repete a imagem  ==== */
+  
+   
+
+
+                }
+header#cabecalho img#fotojs{
+    width: 10% ;/*==== largura da imagen no site ==== */
+    margin-left: 850px;
+    position: absolute;
+    top:12px;
+
+
+}
+
+footer#rodape  p{
+                    text-align: center
+
+}
+
+
+
+
+footer#rodape{
+    clear: both;/*====limpe as configuraçoes dos dois lados==== */
+    border-top: 1px solid #606060;
+}
+footer#rodape  a{  text-decoration:none ; /*==== isso tira o link do menu  ==== */
+}
+footer#rodape a:hover{
+    text-decoration: underline;/*==== isso sublinha o texto ao passar o mause  ==== */
+
+                }
+
+
+                        /*==== formatação dos menu ==== */
+nav#menu{
+			font-weight: bold;
+          display: block;
+          height: 42px; /*====espasamento da largura  que atravessa o menu  ==== */
+          background-color:  #e1e1e1;
+          padding: 0px;/*==== espasamento interno do menu ==== */
+          border-radius: 20px;/*==== efeito circular no menu ==== */
+
+        }
+
+nav#menu ul{
+            text-align: center;     /*==== para justifica o texto no paragrafo  ==== */
+            list-style: none;               /*====some com os marcadores ==== */
+            text-transform: uppercase;       /*====deixa o texto grande tudo maiusculo  ==== */
+			margin-left:-60px;
+
+          }
+
+nav#menu li{
+			
+            border-radius: 20px;
+            display: inline-block; /*====sdeixa o menu um do lado do outro  ==== */
+            background-color: #cecece;/*====cor do fundo do menu  ==== */
+            padding: 10px;/*==== espasamento interno do menu ==== */
+            margin: 2px;/*==== espasamento fora do menu ==== */
+            transition:  1s;
+           }
+nav#menu li:hover{ background-color: rgba(0, 0, 0, 0.98); /*==== muda a cor ao passar o mause ==== */
+                 }
+nav#menu h1{
+        display: none;
+          }
+nav#menu a{
+        color:  rgba(162, 12, 162, 0.88);
+        text-decoration:none ; /*==== isso tira o link do menu  ==== */
+        }
+nav#menu a:hover{
+    color: rgb(240, 248, 255); /*==== muda a cor ao passar o mause ==== */
+
+                }
+
+                          /*====formataçao das fontes dos textos==== */
+
+						 
+
+header#cabecalho h1{
+		
+             margin-top: 27px ;
+               margin-bottom: 0px;/*define o espaçamento do conteúdo do elemento em relação à borda inferior do mesmo.*/
+               font-size: 60px;
+               text-shadow:2px 3px 2px  aqua;   /*==== DA UMA SOMBRA NO TEXTO * PRA CIMA -PRA ESQUERDA PRA BAIXO ESSA E A ORDEN ==== */
+               font-family:sans-serif; /*==== aqui entra a fonte personalizada ==== */
+                text-align: center ; /*==== alinha o texto ao centro  ==== */
+				
+
+                  }
+header#cabecalho h2{ 
+					font-family:sans-serif ;
+                     padding: 0px;/*==== espasamento interno do menu ==== */
+                     margin-top: 2px;/*define o espaçamento do conteúdo do elemento em relação à borda inferior do mesmo.*/
+						 text-shadow:2px 3px 2px  aqua; 
+						 text-align: center;
+
+                   }
+
+
+footer#rodape  p{
+                    text-align: center;
+					
+
+}
+
+section#corpo p  { text-decoration:none ; /*==== isso tira o link do menu  ==== */
+     font-size: 17px;
+      font-family:'computer-font',cursive, sans-serif, arial, sala,; 
+     text-align: justify;    /*==== para justifica o texto no paragrafo  ==== */
+     text-indent: 10px;     /*==== para dar o espaco no comeco do paragrafo  ==== */
+	  text-align: center;
+    }
+
+
+
+
+

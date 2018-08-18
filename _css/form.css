@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+form {
+	 padding: 10px;
+ 
+}
+
+
+form#fcontato{
+	
+	 padding: 10px;
+	margin-top:-45px;
+}
+form#fc {
+    padding: 10px;
+	margin-top:-45px;
+	
+}
+fieldset#user{
+	
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+  background-image: url("../_img/ws.png") ;
+    background-repeat: no-repeat ;
+	background-position:95% 95%;
+ 
+}
+fieldset#user1{
+	
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+    background-image: url("../_img/suporte1.png") ;
+	
+    background-repeat: no-repeat ;
+	background-position:95% 95%;
+ 
+}
+fieldset#tipo{
+	
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+    background-image: url("../_img/eu.png") ;
+	
+    background-repeat: no-repeat ;
+	background-position:95% 95%;
+ 
+}
+fieldset#leg{
+	
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+    background-image: url("../_img/text_document.png") ;
+	
+    background-repeat: no-repeat ;
+	background-position:95% 95%;
+ 
+}
+fieldset#sexo{
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+
+}
+
+fieldset#tipo{
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+
+}
+fieldset#leg{
+	margin-top:10px;
+	border-radius: 20px;/*==== efeito circular no menu ==== */
+
+}
+input , textarea{
+	font-family:sans-serif;
+	font-weight:normal;
+	font-size:13px;
+    padding: 5px;
+    margin: 5px;
+	margin-left:7px; 
+}
+label{
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:14px;
+    padding: 3px;
+   
+}
+input:hover, textarea:hover{
+  	background-color:#cecece;
+	
+}
+
+legend {
+	
+	border-radius: 20px;
+	background-color:#cecece;
+    padding: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.81);
+}
+fieldset#tipo label.as{
+	border-radius: 20px;
+		 background-color:  #e1e1e1;
+ 		
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.81);
+	padding: 4px;
+}
+ form#fc input.b{
+				
+				padding:10px;
+				margin-left:230px; 
+			 }
+			 
+ form input.c{
+				
+				padding:10px;
+				margin-left:230px; 
+
+			 }			 
